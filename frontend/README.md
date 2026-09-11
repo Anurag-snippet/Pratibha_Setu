@@ -75,7 +75,7 @@ Create a `.env` file in the `frontend` folder (or configure your hosting provide
 
 ```env
 # URL pointing to the running backend API
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=https://pratibha-setu-backend.onrender.com/api
 ```
 
 ### 4. Development Server
