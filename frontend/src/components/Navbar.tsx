@@ -11,7 +11,6 @@ import {
   Users,
   BarChart3,
   BookOpen,
-  Leaf,
 } from "lucide-react";
 import { Button } from "@/components/ui-kit";
 import { cn } from "@/lib/utils";
@@ -94,11 +93,12 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background/90 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center gap-6 px-4 sm:px-6">
-        <Link to="/" className="flex items-center gap-2 font-bold">
-          <span className="grid size-9 place-items-center rounded-xl bg-primary text-primary-foreground">
-            <Leaf className="size-5" />
-          </span>
-          <span className="text-lg">Pratibha Setu</span>
+        <Link to="/" className="flex items-center gap-2">
+          <img
+            src="/logo.png"
+            alt="Pratibha Setu"
+            className="h-10 w-auto max-w-[200px] object-contain sm:max-w-[240px]"
+          />
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">

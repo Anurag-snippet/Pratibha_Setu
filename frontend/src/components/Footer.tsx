@@ -1,5 +1,4 @@
 import { Link } from "@tanstack/react-router";
-import { Leaf } from "lucide-react";
 
 const groups = [
   {
@@ -46,12 +45,13 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
         <div className="grid gap-10 lg:grid-cols-5">
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2 font-bold">
-              <span className="grid size-9 place-items-center rounded-xl bg-primary text-primary-foreground">
-                <Leaf className="size-5" />
-              </span>
-              Pratibha Setu
-            </div>
+            <Link to="/" className="inline-block">
+              <img
+                src="/logo.png"
+                alt="Pratibha Setu"
+                className="h-11 w-auto max-w-[220px] object-contain"
+              />
+            </Link>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
               An academia–industry collaboration portal for skill mapping, internships and placements.
             </p>

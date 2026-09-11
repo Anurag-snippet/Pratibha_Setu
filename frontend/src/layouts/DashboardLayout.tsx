@@ -15,7 +15,6 @@ import {
   X,
   Repeat,
   LogOut,
-  Leaf,
   CheckCircle2,
   Search,
 } from "lucide-react";
@@ -64,11 +63,12 @@ export function DashboardShell({ role, children }: { role: Role; children?: Reac
 
   const sidebar = (
     <div className="flex h-full flex-col gap-6 border-r border-sidebar-border bg-sidebar px-4 py-5">
-      <Link to="/" className="flex items-center gap-2 font-bold">
-        <span className="grid size-9 place-items-center rounded-xl bg-primary text-primary-foreground">
-          <Leaf className="size-5" />
-        </span>
-        Pratibha Setu
+      <Link to="/" className="flex items-center gap-2">
+        <img
+          src="/logo.png"
+          alt="Pratibha Setu"
+          className="h-10 w-auto max-w-[200px] object-contain"
+        />
       </Link>
 
       <nav className="space-y-1">

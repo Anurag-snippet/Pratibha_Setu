@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "@tanstack/react-router";
-import { GraduationCap, BookOpen, Building2, Landmark, Leaf, ShieldCheck, Loader2 } from "lucide-react";
+import { GraduationCap, BookOpen, Building2, Landmark, ShieldCheck, Loader2 } from "lucide-react";
 import { Button, Card, Field, inputClass } from "@/components/ui-kit";
 import { roleMeta, useApp, type Role } from "@/context/AuthContext";
 import { cn } from "@/lib/utils";
@@ -95,11 +95,12 @@ export function LoginPage() {
   return (
     <div className="grid min-h-screen lg:grid-cols-2">
       <div className="hero-blob hidden flex-col justify-between border-r border-border p-12 lg:flex">
-        <Link to="/" className="flex items-center gap-2 font-bold">
-          <span className="grid size-9 place-items-center rounded-xl bg-primary text-primary-foreground">
-            <Leaf className="size-5" />
-          </span>
-          Pratibha Setu
+        <Link to="/" className="inline-block">
+          <img
+            src="/logo.png"
+            alt="Pratibha Setu"
+            className="h-12 w-auto max-w-[240px] object-contain"
+          />
         </Link>
         <div className="max-w-md">
           <p className="eyebrow">Academia–industry portal</p>
@@ -117,11 +118,12 @@ export function LoginPage() {
 
       <div className="flex items-center justify-center px-4 py-12 sm:px-8">
         <div className="w-full max-w-md">
-          <Link to="/" className="mb-8 flex items-center gap-2 font-bold lg:hidden">
-            <span className="grid size-9 place-items-center rounded-xl bg-primary text-primary-foreground">
-              <Leaf className="size-5" />
-            </span>
-            Pratibha Setu
+          <Link to="/" className="mb-8 inline-block lg:hidden">
+            <img
+              src="/logo.png"
+              alt="Pratibha Setu"
+              className="h-10 w-auto max-w-[200px] object-contain"
+            />
           </Link>
 
           <div className="flex rounded-full border border-border bg-card p-1">
