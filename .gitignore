@@ -10,6 +10,8 @@ dist-ssr/
 .tanstack/
 .nitro/
 .wrangler/
+.lovable/
+frontend/.lovable/
 
 # Environment variables
 .env
