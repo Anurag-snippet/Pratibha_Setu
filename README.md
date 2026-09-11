@@ -2,6 +2,9 @@
 
 > A unified platform bridging **Students, Academicians, Institutions, and Industry Partners** for standardized skill assessments, dynamic competency-based matching, internships, faculty development programs, and recruitment pipelines.
 
+- 🌐 **Live Web Application**: [https://pratibha-setu.onrender.com](https://pratibha-setu.onrender.com)
+- 🚀 **Live Backend API**: [https://pratibha-setu-backend.onrender.com](https://pratibha-setu-backend.onrender.com)
+
 ---
 
 ## 📌 Overview
