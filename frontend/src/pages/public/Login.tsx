@@ -97,9 +97,9 @@ export function LoginPage() {
       <div className="hero-blob hidden flex-col justify-between border-r border-border p-12 lg:flex">
         <Link to="/" className="inline-block">
           <img
-            src="/logo.png"
+            src="/logo-transparent.png"
             alt="Pratibha Setu"
-            className="h-12 w-auto max-w-[240px] object-contain"
+            className="h-16 w-auto max-w-[300px] object-contain"
           />
         </Link>
         <div className="max-w-md">
@@ -120,9 +120,9 @@ export function LoginPage() {
         <div className="w-full max-w-md">
           <Link to="/" className="mb-8 inline-block lg:hidden">
             <img
-              src="/logo.png"
+              src="/logo-transparent.png"
               alt="Pratibha Setu"
-              className="h-10 w-auto max-w-[200px] object-contain"
+              className="h-12 w-auto max-w-[240px] object-contain"
             />
           </Link>
 

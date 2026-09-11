@@ -47,9 +47,9 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link to="/" className="inline-block">
               <img
-                src="/logo.png"
+                src="/logo-transparent.png"
                 alt="Pratibha Setu"
-                className="h-11 w-auto max-w-[220px] object-contain"
+                className="h-14 w-auto max-w-[280px] object-contain"
               />
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">

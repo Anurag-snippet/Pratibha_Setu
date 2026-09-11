@@ -63,11 +63,11 @@ export function DashboardShell({ role, children }: { role: Role; children?: Reac
 
   const sidebar = (
     <div className="flex h-full flex-col gap-6 border-r border-sidebar-border bg-sidebar px-4 py-5">
-      <Link to="/" className="flex items-center gap-2">
+      <Link to="/" className="flex items-center gap-2 py-1">
         <img
-          src="/logo.png"
+          src="/logo-transparent.png"
           alt="Pratibha Setu"
-          className="h-10 w-auto max-w-[200px] object-contain"
+          className="h-12 w-auto max-w-[220px] object-contain"
         />
       </Link>
 
