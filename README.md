@@ -96,12 +96,12 @@ npm install
 
 #### Environment Variables (`backend/.env`):
 ```env
-PORT=5000
-NODE_ENV=development
-MONGODB_URI=mongodb://127.0.0.1:27017/pratibha_setu
-JWT_SECRET=pratibha_setu_secret_key_production_2026
-JWT_EXPIRES_IN=7d
-CORS_ORIGIN=http://localhost:8080,http://localhost:5173
+PORT=
+NODE_ENV=
+MONGODB_URI=
+JWT_SECRET=
+JWT_EXPIRES_IN=
+CORS_ORIGIN=http:
 ```
 
 ```bash
